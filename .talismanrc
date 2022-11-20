@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: hustle.js
+  checksum: c1825e1963c5f3e4562e8612d7ea473d4173b374ca87da5ca7ca423fed960827
+version: "1.0"

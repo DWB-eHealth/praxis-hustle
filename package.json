@@ -1,0 +1,22 @@
+{
+  "name": "@dwb-ehealth/hustle",
+  "version": "1.0.1",
+  "description": "A Javascript queuing and messaging library persisted over indexedDB",
+  "main": "hustle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DWB-eHealth/hustle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DWB-eHealth/hustle/issues"
+  },
+  "homepage": "https://github.com/DWB-eHealth/hustle#readme"
+}
