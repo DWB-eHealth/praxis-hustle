@@ -1,5 +1,5 @@
 {
-  "name": "@dwb-ehealth/hustle",
+  "name": "@tw-msf/hustle",
   "version": "1.0.1",
   "description": "A Javascript queuing and messaging library persisted over indexedDB",
   "main": "hustle.js",
