@@ -124,6 +124,10 @@ API
 - [Hustle.close](#hustleclose)
 - [Hustle.is\_open](#hustleis_open)
 - [Hustle.wipe](#hustlewipe)
+- [Hustle.clearHustle](#hustleclearhustle)
+- [Hustle.insertDataInHustle](#hustleinsertdatainhustle)
+- [Hustle.backupDB](#hustlebackupdb)
+- [Hustle.backupAll](#hustlebackupall)
 - [Hustle.Queue](#hustlequeue)
   - [Queue item format](#queue-item-format)
   - [Hustle.Queue.peek](#hustlequeuepeek)
@@ -205,6 +209,34 @@ Closes the Hustle database and obliterates it. Very useful for debugging apps
 time your app loads just before you call [open](#hustleopen).
 
 This function is synchronous.
+
+### Hustle.clearHustle
+```javascript
+hustle.clearHustle();
+```
+
+Clears data from all tubes in the Hustle DB.
+
+### Hustle.insertDataInHustle
+```javascript
+hustle.insertDataInHustle(data, tube);
+```
+
+Inserts data in the respective tube.
+
+### Hustle.backupDB
+```javascript
+hustle.backupDB();
+```
+
+Returns all tubes from Hustle DB.
+
+### Hustle.backupAll
+```javascript
+hustle.backupAll(tube);
+```
+
+Returns data with respect to tube name.
 
 ### Hustle.Queue
 The Hustle queue system allows jobs to be atomically grabbed and operated on
