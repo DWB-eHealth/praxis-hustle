@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DWB-eHealth/hustle.git"
+    "url": "git+https://github.com/DWB-eHealth/praxis-hustle.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DWB-eHealth/hustle/issues"
+    "url": "https://github.com/DWB-eHealth/praxis-hustle/issues"
   },
-  "homepage": "https://github.com/DWB-eHealth/hustle#readme"
+  "homepage": "https://github.com/DWB-eHealth/praxis-hustle#readme"
 }
